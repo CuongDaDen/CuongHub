@@ -34,64 +34,122 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     
 ------- BUTTON
     
-    AddButton(Tab1o, {
-     Name = "Fix Lag Turbo Lite",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
-  end
-  })
-     AddButton(Tab1o, {
-     Name = "Redz Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-  end
-  })   
-     AddButton(Tab1o, {
-     Name = "AnDepZai Hub",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
-  end
-  })   
-     AddButton(Tab1o, {
-     Name = "W-azure",
-    Callback = function()
-	  getgenv().Team = "Pirates"
-     getgenv().FixCrash = false
-     getgenv().FixCrash2 = false
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-  end
-  })  
-     AddButton(Tab1o, {
-     Name = "Bap Red Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
-  end
-  })   
-     AddButton(Tab1o, {
-     Name = "Speed Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-  end
-  })
-     AddButton(Tab1o, {
-     Name = "Xero Hub",
-    Callback = function()
-	  getgenv().Team = "Marines"
-getgenv().Hide_Menu = false
-getgenv().Auto_Execute = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
-  end
-  })
-AddButton(Tab1o, {
-     Name = "Rubu V3",
-    Callback = function()
-	  loadstring(game:HttpGet(" https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
-  end
-  }) 
   AddButton(Tab1o, {
-     Name = "Astrol Hub V1",
+
+     Name = "Fix Lag Turbo Lite",
+
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+
   end
+
+  })
+
+     AddButton(Tab1o, {
+
+     Name = "Redz Hub",
+
+    Callback = function()
+
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+
+  end
+
+  })   
+
+     AddButton(Tab1o, {
+
+     Name = "AnDepZai Hub",
+
+    Callback = function()
+
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+
+  end
+
+  })   
+
+     AddButton(Tab1o, {
+
+     Name = "W-azure",
+
+    Callback = function()
+
+	  getgenv().Team = "Pirates"
+
+     getgenv().FixCrash = false
+
+     getgenv().FixCrash2 = false
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+
+  end
+
+  })  
+
+     AddButton(Tab1o, {
+
+     Name = "Angry Hub",
+
+    Callback = function()
+
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/angry5/ec20347a74aa4e46c71b15b6093eeaf5/raw/Angery.lua"))()
+  end
+
+  })   
+
+     AddButton(Tab1o, {
+
+     Name = "Speed Hub",
+
+    Callback = function()
+
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+
+  end
+  })
+  
+  AddButton(Tab1o, {
+
+     Name = "Min Gaming Hub",
+
+    Callback = function()
+
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBE"))()
+
+  end
+
+  })
+
+     AddButton(Tab1o, {
+
+     Name = "Xero Hub",
+
+    Callback = function()
+
+	  getgenv().Team = "Marines"
+
+getgenv().Hide_Menu = false
+
+getgenv().Auto_Execute = false
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+
+  end
+
+  })
+
+  AddButton(Tab1o, {
+
+     Name = "Astrol Hub V1",
+
+    Callback = function()
+
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+
+  end
+
   })
