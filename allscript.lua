@@ -33,8 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
     
 ------- BUTTON
-    
-  AddButton(Tab1o, {
+
+    AddButton(Tab1o, {
 
      Name = "Fix Lag Turbo Lite",
 
@@ -45,7 +45,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
 
   })
-AddButton(Tab1o, {
+  
+  AddButton(Tab1o, {
 
      Name = "Turbo Lite Hub",
 
@@ -56,6 +57,7 @@ AddButton(Tab1o, {
   end
 
   }) 
+
      AddButton(Tab1o, {
 
      Name = "Redz Hub",
@@ -67,7 +69,16 @@ AddButton(Tab1o, {
   end
 
   })   
+AddButton(Tab1o, {
 
+     Name = "Quantum Onyx",
+
+    Callback = function()
+
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+
+  })
      AddButton(Tab1o, {
 
      Name = "AnDepZai Hub",
@@ -128,7 +139,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
     Callback = function()
 
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBE"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
 
   end
 
@@ -154,11 +165,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 
   AddButton(Tab1o, {
 
-     Name = "Astrol Hub V1",
+     Name = "Astrol Hub",
 
     Callback = function()
 
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+
+  end
+
+  })
+  AddButton(Tab1o, {
+
+     Name = "Teddy Hub",
+
+    Callback = function()
+
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
 
   end
 
