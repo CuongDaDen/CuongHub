@@ -1,37 +1,71 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
+
+
        local Window = MakeWindow({
+
          Hub = {
+
          Title = "Pham Cuong",
-         Animation = "Cuong Da Den "
+
+         Animation = "I'm Top 1 Da Den VN"
+
          },
+
         Key = {
+
         KeySystem = false,
+
         Title = "Key System",
+
         Description = "",
+
         KeyLink = "",
+
         Keys = {"1234"},
+
         Notifi = {
+
         Notifications = true,
+
         CorrectKey = "Running the Script...",
+
        Incorrectkey = "The key is incorrect",
+
        CopyKeyLink = "Copied to Clipboard"
+
       }
+
     }
+
   })
 
+
+
        MinimizeButton({
+
        Image = "rbxassetid://125751736971555",
+
        Size = {60, 60},
+
        Color = Color3.fromRGB(10, 10, 10),
+
        Corner = true,
+
        Stroke = false,
+
        StrokeColor = Color3.fromRGB(255, 0, 0)
+
       })
+
       
+
 ------ Tab
+
      local Tab1o = MakeTab({Name = "Script Farm"})
+
     
+
 ------- BUTTON
 
 AddButton(Tab1o, {
@@ -40,12 +74,10 @@ AddButton(Tab1o, {
 
     Callback = function()
 
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiusRoblox/HBelzScript/refs/heads/main/FreeScript.lua "))()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiusRoblox/HBelzScript/refs/heads/main/HBelzFree.lua"))()
   end
 
   })
-
-
     AddButton(Tab1o, {
 
      Name = "Fix Lag Turbo Lite",
@@ -80,7 +112,17 @@ AddButton(Tab1o, {
 
   end
 
-  })   
+  })
+AddButton(Tab1o, {
+
+     Name = "Rubu V3",
+
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+
+  })
 AddButton(Tab1o, {
 
      Name = "Quantum Onyx",
@@ -151,7 +193,8 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
     Callback = function()
 
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBV"))()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBV"))() 
   end
 
   })
